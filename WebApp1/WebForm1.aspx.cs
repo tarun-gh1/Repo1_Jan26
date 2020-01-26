@@ -13,7 +13,7 @@ namespace WebApp1
         {
             //System.Threading.Thread.Sleep(10000);
             string strTime = DateTime.Now.ToString();
-            Response.Write("Page cached at: " + strTime);
+            Response.Write("This Page cached at: " + strTime);
         }
     }
 }

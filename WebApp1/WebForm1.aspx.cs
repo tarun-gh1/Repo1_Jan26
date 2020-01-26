@@ -14,6 +14,7 @@ namespace WebApp1
             //System.Threading.Thread.Sleep(10000);
             string strTime = DateTime.Now.ToString();
             Response.Write("This Page again cached at: " + strTime);
+            Response.Write("End");
         }
     }
 }
